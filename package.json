@@ -1,0 +1,13 @@
+{
+  "name": "taller-git-ci",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "prettier:check": "prettier --check \"**/*.{js,json,css,md,html}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
+
