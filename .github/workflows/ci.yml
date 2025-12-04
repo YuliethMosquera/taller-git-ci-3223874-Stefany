@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main, feat/ui-basica ]
+    branches: [main, feat/ui-basica]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
